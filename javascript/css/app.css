@@ -91,7 +91,7 @@ body {
     counter-increment: section;
 }
 #sidebar ul li:before {  /* a hack to have dashes as a list style */
-    content: "lesson" counter(section) ". ";
+    content: counter(section) ". ";
     position: relative;
     left: -5px;
 }
