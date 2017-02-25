@@ -1,5 +1,6 @@
 # **Day 01---初探JavaScript**![](http://www.yztcedu.com/images/logo.png)
 
+
 #   一、JavaScript概述
 
 ## 1.1	JavaScript是什么?
