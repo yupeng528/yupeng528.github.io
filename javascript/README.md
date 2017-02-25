@@ -1,8 +1,6 @@
 # JavaScript程序设计
 
 
-![](http://www.yztcedu.com/html5/images/ghtml5/html5_banner_1.jpg)
-
 
 ### 版权许可
 
