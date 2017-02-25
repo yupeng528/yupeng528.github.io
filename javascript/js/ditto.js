@@ -92,9 +92,12 @@ function init_sidebar_section() {
 
             var prev = current.prev();
 
+            current.removeClass('current');
+            prev.addClass('current')
+
             location.hash = prev.find('a').attr('href')
         });
-        
+
         $('#pagedown').on('click', function() {
             // var hash = getHash().nav;
             // for (var i = 0; i < menu.length; i++) {
@@ -103,8 +106,9 @@ function init_sidebar_section() {
             // }
             // location.hash = menu[i + 1];
             var current = $('.current')
-
             var prev = current.next();
+            current.removeClass('current');
+            prev.addClass('current')
 
             location.hash = prev.find('a').attr('href')
         });
