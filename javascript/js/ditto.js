@@ -72,28 +72,41 @@ function init_sidebar_section() {
            init_searchbar();
         }
 
-        // 初始化内容数组
-        var menuOL = $(ditto.sidebar_id + ' ol');
-        menuOL.attr('start', 0);
+        
+        $('#sidebar  ul li').on('click',function(){
+          
+          $('#sidebar  ul li').removeClass('current');
+          $(this).addClass('current');
 
-        menuOL.find('li a').map(function() {
-            menu.push(this.href.slice(this.href.indexOf('#')));
         });
+
         $('#pageup').on('click', function() {
-            var hash = getHash().nav;
-            for (var i = 0; i < menu.length; i++) {
-                if (hash === '') break;
-                if (menu[i] === '#' + hash) break;
-            }
-            location.hash = menu[i - 1]
+
+            // var hash = getHash().nav;
+            // for (var i = 0; i < menu.length; i++) {
+            //     if (hash === '') break;
+            //     if (menu[i] === '#' + hash) break;
+            // }
+
+            var current = $('.current')
+
+            var prev = current.prev();
+
+            location.hash = prev.find('a').attr('href')
         });
+        
         $('#pagedown').on('click', function() {
-            var hash = getHash().nav;
-            for (var i = 0; i < menu.length; i++) {
-                if (hash === '') break;
-                if (menu[i] === '#' + hash) break;
-            }
-            location.hash = menu[i + 1];
+            // var hash = getHash().nav;
+            // for (var i = 0; i < menu.length; i++) {
+            //     if (hash === '') break;
+            //     if (menu[i] === '#' + hash) break;
+            // }
+            // location.hash = menu[i + 1];
+            var current = $('.current')
+
+            var prev = current.next();
+
+            location.hash = prev.find('a').attr('href')
         });
     }, "text").fail(function() {
         alert("Opps! can't find the sidebar file to display!");
@@ -115,7 +128,7 @@ function searchbar_listener(event) {
     // event.preventDefault();
     var q = $('input[name=search]').val();
     if (q !== '') {
-      var url = 'https://github.com/ruanyf/es6tutorial/search?utf8=✓&q=' + encodeURIComponent(q);
+      var url = 'https://github.com/yupeng528/search?utf8=✓&q=' + encodeURIComponent(q);
       window.open(url, '_blank');
       win.focus();
     }

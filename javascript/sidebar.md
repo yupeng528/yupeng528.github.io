@@ -33,7 +33,7 @@
 - [组件与案例](#docs/enhance/组件与案例)
 - [设计模式](#docs/enhance/设计模式)
 - [jquery选择器](#docs/enhance/jquery选择器)
-- [jquery操作和事件](#docs/enhance/jquery操作和事件)
+- [jquery操作与事件](#docs/enhance/jquery操作与事件)
 - [jquery动画与ajax](#docs/enhance/jquery动画与ajax)
 - [LESS](#docs/enhance/LESS)
 - [ES6新特性](#docs/enhance/ES6新特性)
