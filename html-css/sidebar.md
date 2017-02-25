@@ -9,7 +9,7 @@
 - [前言](#README)
 - [HTML简介及常用标签](#docs/basic/HTML简介及常用标签)
 - [表格标签和表单标签](#docs/basic/表格标签和表单标签)
-- [CSS样式表及基本选择器的使用](#docs/basic/CSS样式表和基本选择器的使用)
+- [CSS样式表及基本选择器的使用](#docs/basic/CSS样式表及基本选择器的使用)
 - [CSS选择器及文字段落属性](#docs/basic/CSS选择器及文字段落属性)
 - [背景属性和列表属性](#docs/basic/背景属性和列表属性)
 - [盒子模型](#docs/basic/盒子模型)
