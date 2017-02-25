@@ -87,9 +87,11 @@ body {
     padding-left: 30px;
     padding-top: 0;
 }
-
+#sidebar ul li{
+    counter-increment: section;
+}
 #sidebar ul li:before {  /* a hack to have dashes as a list style */
-    content: "-";
+    content: counter(section) ". ";
     position: relative;
     left: -5px;
 }
