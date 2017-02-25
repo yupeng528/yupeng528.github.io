@@ -1,6 +1,6 @@
 # [JavaScript程序设计]()
 
-作者：[育知同创HTML5](http://www.yztced.com)
+作者：[育知同创HTML5](http://www.yztcedu.com)
 
 授权：<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">署名-非商用许可证</a>
 
