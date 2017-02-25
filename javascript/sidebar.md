@@ -1,4 +1,4 @@
-# [ECMAScript 6 入门]()
+# [JavaScript程序设计]()
 
 作者：[育知同创HTML5](http://www.yztced.com)
 
