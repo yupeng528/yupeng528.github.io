@@ -144,7 +144,7 @@ input.searchButton {
 
 @media (min-width: 40rem) {
 	#content {
-		width: 580px;
+		width: 75%;
 		padding-left:330px;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -295,7 +295,7 @@ input.searchButton {
     width: 70px;
     top: 20px;
 
-    margin-left: 930px;
+    margin-left: 90%;
     margin-top: 0px;
 
     color: #FFF;
@@ -321,7 +321,7 @@ input.searchButton {
     width: 70px;
     top: 45px;
 
-    margin-left: 930px;
+    margin-left: 90%;
     margin-top: 0px;
 
     color: #FFF;
