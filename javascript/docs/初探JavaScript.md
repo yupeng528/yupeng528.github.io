@@ -1,5 +1,6 @@
 # **Day 01---初探JavaScript**![](http://www.yztcedu.com/images/logo.png)
-一段神奇的JS代码
+
+首先我们来看一段神奇的JS代码
 
 ```javascript
 <script type="text/javascript">
