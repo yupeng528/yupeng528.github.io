@@ -55,9 +55,9 @@ function initialize() {
     init_back_to_top_button();
   }
 
-  if (ditto.edit_button) {
-    init_edit_button();
-  }
+  // if (ditto.edit_button) {
+  //   init_edit_button();
+  // }
 
   // page router
   router();

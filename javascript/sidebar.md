@@ -36,6 +36,7 @@
 - [jquery操作和事件](#docs/enhance/jquery操作和事件)
 - [jquery动画与ajax](#docs/enhance/jquery动画与ajax)
 - [LESS](#docs/enhance/LESS)
+- [ES6新特性](#docs/enhance/ES6新特性)
 - [Nodejs+express](#docs/enhance/Nodejs+express)
 
 
