@@ -4,21 +4,38 @@
 
 授权：<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">署名-非商用许可证</a>
 
-## 目录
-1. [前言](#README)
-1. [初探JavaScript](#docs/初探JavaScript)
-1. [变量和数据类型](#docs/变量和数据类型)
-1. [选择语句](#docs/选择语句)
-1. [循环语句](#docs/循环语句)
-1. [函数](#docs/函数)
-1. [数组](#docs/数组)
-1. [字符串操作和数学函数](#docs/字符串操作和数学函数)
-1. [BOM操作](#docs/BOM操作)
-1. [DOM基础](#docs/DOM基础)
-1. [事件](#docs/事件)
-1. [事件对象](#docs/事件对象)
-1. [日期对象和万年历](#docs/日期对象和万年历)
-1. [正则表达式](#docs/正则表达式)
+## Javascript初级
+
+- [前言](#README)
+- [初探JavaScript](#docs/basic/初探JavaScript)
+- [变量和数据类型](#docs/basic/变量和数据类型)
+- [选择语句](#docs/basic/选择语句)
+- [循环语句](#docs/basic/循环语句)
+- [函数](#docs/basic/函数)
+- [数组](#docs/basic/数组)
+- [字符串操作和数学函数](#docs/basic/字符串操作和数学函数)
+- [BOM操作](#docs/basic/BOM操作)
+- [DOM基础](#docs/basic/DOM基础)
+- [事件](#docs/basic/事件)
+- [事件对象](#docs/basic/事件对象)
+- [日期对象和万年历](#docs/basic/日期对象和万年历)
+- [正则表达式](#docs/basic/正则表达式)
+
+## Javascript高级
+
+- [初探JavaScript](#docs/basic/初探JavaScript)
+- [变量和数据类型](#docs/basic/变量和数据类型)
+- [选择语句](#docs/basic/选择语句)
+- [循环语句](#docs/basic/循环语句)
+- [函数](#docs/basic/函数)
+- [数组](#docs/basic/数组)
+- [字符串操作和数学函数](#docs/basic/字符串操作和数学函数)
+- [BOM操作](#docs/basic/BOM操作)
+- [DOM基础](#docs/basic/DOM基础)
+- [事件](#docs/basic/事件)
+- [事件对象](#docs/basic/事件对象)
+- [日期对象和万年历](#docs/basic/日期对象和万年历)
+- [正则表达式](#docs/basic/正则表达式)
 
 
 ## 其他
