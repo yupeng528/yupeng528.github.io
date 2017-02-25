@@ -327,7 +327,7 @@ function router() {
       document.title = $(ditto.content_id + " h1").text() + " - " + ditto.document_title;
     }
     normalize_paths();
-    create_page_anchors();
+    //create_page_anchors();
 
     // 完成代码高亮
     $('#content code').map(function() {
