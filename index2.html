@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        video{
+            height:100%;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+<video 
+    id="video" 
+    controls="" 
+    preload="none" 
+    mediagroup="myVideoGroup" 
+    poster="http://media.w3.org/2010/05/sintel/poster.png"
+    autoplay
+    x5-playsinline
+    playsinline
+    webkit-playsinline
+    x5-video-player-type="h5"
+    x5-video-player-fullscreen="true"
+    style="object-fit: fill">
+      <source id="mp4" src="https://cnbj1.fds.api.xiaomi.com/plato-xiaoai/0d9bfe34243eda0bf8d5f5ad516af8ee_smartHomeLoading.mp4?GalaxyAccessKeyId=AKVGLQWBOVIRQ3XLEW&Expires=9223372036854775807&Signature=/wVl0x53SIN5I5Rs+B8a3KeoShk=" type="video/mp4">
+</video>
+<!-- 必须加在微信api资源 -->
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    //必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        document.getElementById('video').play();
+    }, false);
+</script>
+</body>
+</html>
