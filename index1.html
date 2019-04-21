@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        video{
+            height:100%;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <video
+        poster="./img/header.jpg"
+        src="./img/header.mp4"
+        id="test"
+        preload="metadata" 
+        playsinline="true"
+        webkit-playsinline="true"  
+        x-webkit-airplay="true"
+        x5-video-player-type="h5" 
+        x5-video-orientation="portraint" 
+        x5-video-player-fullscreen="true">
+    </video>
+    <script>
+        var obj = document.getElementById('test')
+        window.onload = function(){
+            obj.play();
+        }
+        document.addEventListener('touchstart', function () {
+            obj.play();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>小米智能家庭定制</title>
+    <link rel="stylesheet" href="./css/base.css?v1" />
+    <script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
+</head>
+<body>
+    <div class="header">
+        <video
+            poster="./img/header.jpg"
+            src="./img/header.mp4"
+            id="J_video"
+            autoplay
+            x5-playsinline
+            playsinline
+            webkit-playsinline
+            x5-video-player-type="h5"
+            x5-video-player-fullscreen="true"
+            style="object-fit: fill">
+        </video>
+        <div class="text">
+            <a href="javascript:;" class="btn" id="J_SSS">立即预约</a>
+            <a href="" class="tip">点击查看计费规则</a>
+        </div>
+    </div>
+    <div class="main">
+        <section class="section section-01">
+            <h2 class="title">最受欢迎的智能场景</h2>
+            <ul class="list">
+                <li>
+                    <a href="">
+                        <img src="./img/demo-02.jpg" alt="">
+                    </a>
+                    <h3>全屋灯光控制</h3>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/demo-02.jpg" alt="">
+                    </a>
+                    <h3>全屋灯光控制</h3>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/demo-02.jpg" alt="">
+                    </a>
+                    <h3>全屋灯光控制</h3>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section section-02">
+            <h2 class="title">最受欢迎的智能场景</h2>
+            <ul class="list">
+                <li>
+                    <a href="" class="link">
+                        <div class="cover">
+                            <img src="./img/demo-01.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>超强懒人黑科技</h3>
+                            <p>她家70多种智能设备，以一切自动，动动嘴就可以看电影，窗帘根据日落开关，点灯全部人到即亮全部人到即亮11</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link">
+                        <div class="cover">
+                            <img src="./img/demo-01.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>超强懒人黑科技</h3>
+                            <p>她家70多种智能设备，以一切自</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link">
+                        <div class="cover">
+                            <img src="./img/demo-01.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>超强懒人黑科技</h3>
+                            <p>她家70多种智能设备，以一切自动，动动嘴就可以看电影，窗帘根据日落开关，点灯全部人到即亮...</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script src="./js/flexible.js"></script>
+    <script src="./js/zepto.min.js"></script>
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script>
+        window.onload = function() {
+            let ua = window.navigator.userAgent;
+            if(!!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+                $('.header').find('video').show();
+        //     } else if(ua.indexOf('Android') > -1 || ua.indexOf('Adr') > -1) {
+        //         $('.header').addClass('header-bg');
+            }
+            if (ua.match(/MicroMessenger/i) == 'MicroMessenger') {
+                // 微信浏览器 
+                console.log('微信浏览器');
+            }
+            document.addEventListener("WeixinJSBridgeReady", function () { 
+                document.getElementById('J_video').play();
+            }, false); 
+        }
+    </script>
+</body>
+</html>

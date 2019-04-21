@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+  font: 0.1587301587rem "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif; }
+
+img {
+  display: block; }
+
+ul::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.show {
+  display: block !important; }
+
+.hide {
+  display: none !important; }
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.text-hidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.header {
+  position: relative;
+  height: 20rem;
+  background: url("../img/header.jpg") no-repeat center center;
+  background-size: cover; }
+  .header.header-bg {
+    background: url("../img/header-on.jpg") no-repeat center center;
+    background-size: cover; }
+  .header video {
+    display: none;
+    width: 100%;
+    height: 20rem; }
+  .header .text {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0.9259259259rem;
+    left: 0;
+    text-align: center; }
+    .header .text .btn {
+      margin: 0 auto;
+      display: block;
+      background: #6568d8;
+      width: 8.3333333333rem;
+      height: 1.1759259259rem;
+      line-height: 1.1759259259rem;
+      font-size: 0.3333333333rem;
+      color: #fff;
+      text-align: center;
+      border-radius: 0.0925925926rem;
+      margin-bottom: 0.3703703704rem; }
+    .header .text .tip {
+      color: #fff;
+      opacity: .8;
+      text-decoration: underline; }
+
+.main .title {
+  font-size: 0.5555555556rem;
+  color: #000; }
+.main .section {
+  padding: 0 0.6481481481rem; }
+.main .section-01 {
+  padding-top: 1.0648148148rem;
+  padding-bottom: 1.0648148148rem; }
+  .main .section-01 .list li {
+    margin-top: 0.5555555556rem; }
+    .main .section-01 .list li a {
+      display: block;
+      width: 100%;
+      height: 4.9074074074rem;
+      overflow: hidden;
+      border-radius: 0.2777777778rem; }
+      .main .section-01 .list li a img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .main .section-01 .list li h3 {
+      margin-top: 0.3240740741rem;
+      color: #4c4c4c;
+      font-size: 0.4259259259rem;
+      font-weight: normal;
+      padding-left: 3px; }
+.main .section-02 {
+  border-top: 0.1851851852rem solid #f2f2f2;
+  padding-top: 1.0648148148rem;
+  padding-bottom: 1.0648148148rem; }
+  .main .section-02 .list {
+    margin-top: 0.462962963rem;
+    overflow: hidden;
+    position: relative; }
+    .main .section-02 .list::after {
+      border-top: 1px solid #ccc;
+      content: '';
+      display: block;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: scaleY(0.5);
+      -webkit-transform: scaleY(0.5); }
+    .main .section-02 .list li {
+      padding-top: 0.4166666667rem;
+      padding-bottom: 0.4166666667rem;
+      position: relative;
+      overflow: hidden; }
+      .main .section-02 .list li::after {
+        border-bottom: 1px solid #ccc;
+        content: '';
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: scaleY(0.5);
+        -webkit-transform: scaleY(0.5); }
+    .main .section-02 .list .link {
+      display: block;
+      overflow: hidden;
+      height: 2.3148148148rem; }
+    .main .section-02 .list .cover {
+      width: 3.0555555556rem;
+      height: 2.3148148148rem;
+      overflow: hidden;
+      border-radius: 0.2777777778rem;
+      float: left; }
+      .main .section-02 .list .cover img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .main .section-02 .list .content {
+      float: right;
+      width: 5.0925925926rem;
+      padding-top: 0.0925925926rem; }
+      .main .section-02 .list .content h3 {
+        color: #000;
+        font-size: 0.4259259259rem; }
+      .main .section-02 .list .content p {
+        line-height: 1.4;
+        font-size: 0.3333333333rem;
+        color: #000;
+        opacity: .7;
+        margin-top: 0.0925925926rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden; }
+
+/*# sourceMappingURL=base.css.map */
