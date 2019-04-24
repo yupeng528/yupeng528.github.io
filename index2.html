@@ -18,10 +18,10 @@
 <body>
 <video 
     id="video" 
-    controls="" 
-    preload="none" 
+    preload="none"
+    controls="controls"
     mediagroup="myVideoGroup" 
-    poster="http://media.w3.org/2010/05/sintel/poster.png"
+    poster="./img/header.jpg"
     autoplay
     x5-playsinline
     playsinline
@@ -36,8 +36,10 @@
 <script>
     //必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效
     document.addEventListener("WeixinJSBridgeReady", function () {
+        alert(111)
         document.getElementById('video').play();
     }, false);
+
 </script>
 </body>
 </html>
